@@ -1,5 +1,5 @@
 # Data collection
-Before I can start developing any solution I will need to record some training and test data. This will allow me to train, test and compare my solutions. Additionally it will remove the need to get out of my chair for every test!  
+Before I can start developing any solution I will need to record some camera outputs. This will allow me to train, test and compare my solutions. Additionally it will remove the need to get out of my chair for every test!  
 
 I will record all relevant output data from the Kinect and PS4 camera. This data will be categorized by data type and stored frame by frame. The Kinect data will serve as training and testing data. I will consider it the ground truth example for my solution because I regard it as the optimal solution for now. The PS4 camera data will serve as input data for the algorithm I attempt to develop.
 
