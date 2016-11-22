@@ -1,7 +1,7 @@
 # Webcam Foreground Extraction
-This is a simple Python/OpenCV example showing how to fetch the Webcam image and apply some foreground/background extraction. Additionally we find the contours in the modified foreground and draw them on top of the image.
+This is a simple Python + OpenCV example showing how to fetch the webcam image and apply some foreground/background extraction. Additionally we find the contours in the modified foreground and draw them on top of the image.
 
-This shows that that the monocular background extraction of OpenCV is quite powerful. However it only works with moving images and loses all foreground information as soon as you stop moving. Here is a video demonstrating that:
+This shows that that the background extraction of OpenCV is quite powerful (using only a monocular camera setup). However it only works with moving images and loses all foreground information as soon as you stop moving. Here is a video demonstration:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/qjDVPdYPtbo/0.jpg)](http://www.youtube.com/watch?v=qjDVPdYPtbo "OpenCV foreground extraction")
 
