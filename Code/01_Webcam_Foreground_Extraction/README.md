@@ -3,7 +3,7 @@ This is a simple Python + OpenCV example showing how to fetch the webcam image a
 
 This shows that that the background extraction of OpenCV is quite powerful (using only a monocular camera setup). However it only works with moving images and loses all foreground information as soon as you stop moving. Here is a video demonstration:
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/qjDVPdYPtbo/0.jpg)](http://www.youtube.com/watch?v=qjDVPdYPtbo "OpenCV foreground extraction")
+[![OpenCV foreground extraction demonstration video](http://img.youtube.com/vi/qjDVPdYPtbo/0.jpg)](http://www.youtube.com/watch?v=qjDVPdYPtbo "OpenCV foreground extraction")
 
 ## References
 * [Foreground Extraction and Contour Detection with OpenCV 3](http://www.erogol.com/foreground-extraction-and-contour-detection-with-opencv-3/)
