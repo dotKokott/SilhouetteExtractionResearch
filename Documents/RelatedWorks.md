@@ -42,6 +42,7 @@ total variation, stereo camera, disparity map.
 * [ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation](https://arxiv.org/pdf/1606.02147v1.pdf)
 
 * [YOLO: Unified, Real-Time Object Detection](http://www.gitxiv.com/posts/wh64sGMfwegjHyHFq/you-only-look-once-unified-real-time-object-detection)
+* [Human silhouette segmentation using discrete poisson equation and extended watershed algorithm](http://ieeexplore.ieee.org/document/7593830/figures)
 
 #### Code
 * [PS4EYECam, GitHub](https://github.com/bigboss-ps3dev/PS4EYECam)
