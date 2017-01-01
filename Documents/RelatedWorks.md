@@ -48,3 +48,5 @@ total variation, stereo camera, disparity map.
 * [PS4EYECam, GitHub](https://github.com/bigboss-ps3dev/PS4EYECam)
 
   PS4 driver for Linux/Mac, able to retrieve stereo image
+  
+* [Realtime Multi-person Pose Estimation](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
