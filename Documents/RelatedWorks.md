@@ -46,6 +46,8 @@ There are already some that work faster (47 FPS) however it is still to be deter
 
 All of them run on super graphic cards like the Titan X. Also possible that for my specific problem I need to use my own training data.
 
+There are some based on movement but these would be too unpredictable for video game input [Incremental Real-Time Multibody VSLAM with Trajectory Optimization Using Stereo Camera](https://arxiv.org/pdf/1608.01024v1.pdf)
+
 #### Papers
 * [Foreground silhouette extraction robust to sudden changes of background appearance, 2012](https://infoscience.epfl.ch/record/176268/files/2782.pdf)
 
