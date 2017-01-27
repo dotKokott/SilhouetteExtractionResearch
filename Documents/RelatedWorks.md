@@ -34,6 +34,18 @@ Another approach could be to use the knowledge of human pose estimation and use 
 
 Some evidence that these joint techniques work: [3D Human Pose Estimation = 2D Pose Estimation + Matching](https://arxiv.org/pdf/1612.06524v1.pdf)
 
+Visualization of feature maps: [A New Convolutional Network-in-Network Structure and Its Applications in Skin Detection, Semantic Segmentation, and Artifact Reduction](https://arxiv.org/pdf/1701.06190v1.pdf)
+
+Most research is still focused on accuracy and not speed.
+
+Fastest seems to be 0.09 seconds per frame (11 fps) which is not really fast enough for video games, however these are able to recognize all silhouettes in a frame. It should be possible to get a better speed trade-off to focus on only certain sizes or limited amount of silhouettes (assumption). [Fused DNN: A deep neural network fusion approach to fast and robust
+pedestrian detection](https://arxiv.org/pdf/1610.03466v1.pdf) Also contains silhouette images for document.
+
+There are already some that work faster (47 FPS) however it is still to be determined if the generated silhouettes can be extracted cleanly because this one is focusing only on region of interest. (Real-Time RGB-D based Template Matching Pedestrian Detection
+)[https://arxiv.org/pdf/1610.00748v1.pdf]
+
+All of them run on super graphic cards like the Titan X. Also possible that for my specific problem I need to use my own training data.
+
 #### Papers
 * [Foreground silhouette extraction robust to sudden changes of background appearance, 2012](https://infoscience.epfl.ch/record/176268/files/2782.pdf)
 
@@ -64,6 +76,8 @@ total variation, stereo camera, disparity map.
 * [Unite the People: Closing the Loop Between 3D and 2D Human Representations](https://arxiv.org/pdf/1701.02468.pdf)
 
 * [ROBUST STATISTICAL APPROACH FOR EXTRACTION OF MOVING HUMAN SILHOUETTES FROM VIDEOS](https://arxiv.org/ftp/arxiv/papers/1408/1408.3814.pdf)
+
+* [Microsoft COCO](https://arxiv.org/pdf/1405.0312v3.pdf) Instance level segmentation
 
 #### Code
 * [PS4EYECam, GitHub](https://github.com/bigboss-ps3dev/PS4EYECam)
