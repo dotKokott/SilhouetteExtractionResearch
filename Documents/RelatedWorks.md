@@ -17,6 +17,23 @@ There are several different approaches to silhouette extraction and they use dif
 
 I am mostly interested in either static single color image or static stereo color image because that is what the PS4 camera supports.
 
+There are approaches for videos that unfortunately dont apply because they analyze movement back and forth.
+
+Pre-processing:
+* RGB normalization to remove intensity variations
+
+* Reference for pre processing background extraction and related works: https://arxiv.org/ftp/arxiv/papers/1408/1408.3814.pdf
+
+Often background processing needs an empty frame without a human in the frame.
+
+In case we are training there is a possiblity to synthesize data (https://arxiv.org/pdf/1604.02703v6.pdf) as well as using already existing datasets.
+
+Human pose estimation is related however it usually relies on just finding "hot-points" like shoulders etc. to extract pose data. However these techniques should also be possible to get the whole shape depending on the training data. (https://www.robots.ox.ac.uk/~vgg/rg/papers/tompson2014.pdf)
+
+Another approach could be to use the knowledge of human pose estimation and use another algo to go from pose data to silhouette. However until this works in realtime it could take a while. At least it could be used to make background removal and other techniques more robust by focusing only where there is a person already.
+
+Some evidence that these joint techniques work: [3D Human Pose Estimation = 2D Pose Estimation + Matching](https://arxiv.org/pdf/1612.06524v1.pdf)
+
 #### Papers
 * [Foreground silhouette extraction robust to sudden changes of background appearance, 2012](https://infoscience.epfl.ch/record/176268/files/2782.pdf)
 
@@ -43,6 +60,10 @@ total variation, stereo camera, disparity map.
 
 * [YOLO: Unified, Real-Time Object Detection](http://www.gitxiv.com/posts/wh64sGMfwegjHyHFq/you-only-look-once-unified-real-time-object-detection)
 * [Human silhouette segmentation using discrete poisson equation and extended watershed algorithm](http://ieeexplore.ieee.org/document/7593830/figures)
+
+* [Unite the People: Closing the Loop Between 3D and 2D Human Representations](https://arxiv.org/pdf/1701.02468.pdf)
+
+* [ROBUST STATISTICAL APPROACH FOR EXTRACTION OF MOVING HUMAN SILHOUETTES FROM VIDEOS](https://arxiv.org/ftp/arxiv/papers/1408/1408.3814.pdf)
 
 #### Code
 * [PS4EYECam, GitHub](https://github.com/bigboss-ps3dev/PS4EYECam)
